@@ -1,0 +1,9 @@
+# Direct dependencies of model.py / analysis.py / figures.py.
+# Python >= 3.10 required (tested on 3.10).
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+
+# Optional, not required for any reproduction step:
+# openmm>=8.0   # energy/force spot check only (model.py self-test)
